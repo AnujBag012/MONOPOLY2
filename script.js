@@ -147,7 +147,7 @@ async function askGeminiAns() {
     else{
         let ans1 = document.getElementById("ans").value;
         let output1 = document.getElementById("responsed-ans").innerText;
-        if(ans1 == "No answer" || ans1 == "no answer" || ans1 == "No Answer" || ans1 == "NO ANSWER" || ans1=="E"||ans1=="e"){
+        if(ans1 == "Science - e" || ans1 == "Moral Science - e" || ans1 == "Global History - e" || ans1 == "NO ANSWER" || ans1=="E"||ans1=="e"){
             score2+=0;
             document.getElementById("score2").innerHTML = "score2: "+score2;
         }
